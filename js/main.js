@@ -1,88 +1,88 @@
-// console.log('Hello World')
+console.log('Hello World')
 
-// // Basics of JavaScript
+// Basics of JavaScript
 
-// /*
-//     Multiline Comment in JavaScript
+/*
+    Multiline Comment in JavaScript
 
-//     -- Variable Declarations in JavaScript -- 
-//     Primitive Data Types: strings, integers, floats, booleans, arrays, objects (aka dictionaries in python)
-//     Function in JavaScript
-//     Control Flow in JavaScript (Loops, Conditionals)
-// */
+    -- Variable Declarations in JavaScript -- 
+    Primitive Data Types: strings, integers, floats, booleans, arrays, objects (aka dictionaries in python)
+    Function in JavaScript
+    Control Flow in JavaScript (Loops, Conditionals)
+*/
 
-// // String Variable
-// var firstName = "Brian";
+// String Variable
+var firstName = "Brian";
 
-// // Display our value to the javascript console (aka print in python)
-// console.log(firstName);
-
-
-// // Integer Variable
-// var someNum = 21;
-
-// console.log(someNum);
-// console.log(typeof(someNum));
-
-// // Float Variable
-// var someFloat = 3.14;
-
-// console.log(someFloat);
-// console.log(typeof(someFloat));
-
-// // Boolean Variable
-// var someBool = true;
-// var anotherBool = false;
-
-// console.log(someBool, anotherBool)
+// Display our value to the javascript console (aka print in python)
+console.log(firstName);
 
 
-// // Array Variable
-// var someArray = [1, "Brian", 3, true];
+// Integer Variable
+var someNum = 21;
 
-// console.log(someArray);
+console.log(someNum);
+console.log(typeof(someNum));
 
+// Float Variable
+var someFloat = 3.14;
 
-// // Object Variable
-// // JSON - JavaScript Object Notation
-// var someObject = {
-//     'test': 'This is a  test!',
-//     'hello': 'Hello World'
-// }
+console.log(someFloat);
+console.log(typeof(someFloat));
 
-// console.log(someObject);
+// Boolean Variable
+var someBool = true;
+var anotherBool = false;
 
-
-// // 'var' can be redeclared
-// var myDeclaration = 'Hello World';
-
-// myDeclaration = 'Goodbye World';
-
-// console.log(myDeclaration);
+console.log(someBool, anotherBool)
 
 
+// Array Variable
+var someArray = [1, "Brian", 3, true];
 
-// // JAVASCRIPT HOISTING EXAMPLE
-// console.log(someRandomString);
-// var someRandomString = 'This is a random string';
-// console.log(someRandomString);
-
-
-// // A better way to declare variables is by using 'let' and/or 'const'
-
-// let fullName = 'Brian Stanton';
-// console.log(fullName);
-
-// fullName = 'Frank Thomas';
-// console.log(fullName)
-
-// const superHero = 'Spider-Man';
-// console.log(superHero);
-
-// // superHero = 'Batman';
-// // console.log(superHero)
+console.log(someArray);
 
 
+// Object Variable
+// JSON - JavaScript Object Notation
+var someObject = {
+    'test': 'This is a  test!',
+    'hello': 'Hello World'
+}
+
+console.log(someObject);
+
+
+// 'var' can be redeclared
+var myDeclaration = 'Hello World';
+
+myDeclaration = 'Goodbye World';
+
+console.log(myDeclaration);
+
+
+
+// JAVASCRIPT HOISTING EXAMPLE
+console.log(someRandomString);
+var someRandomString = 'This is a random string';
+console.log(someRandomString);
+
+
+// A better way to declare variables is by using 'let' and/or 'const'
+
+let fullName = 'Brian Stanton';
+console.log(fullName);
+
+fullName = 'Frank Thomas';
+console.log(fullName)
+
+const superHero = 'Spider-Man';
+console.log(superHero);
+
+// superHero = 'Batman';
+// console.log(superHero)
+
+console.clear()
 // BASIC MATH OPERATIONS
 
 // Addition
